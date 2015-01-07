@@ -13,9 +13,10 @@ namespace NetExamination
         DataCon datacon = new DataCon();
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["StudentName"] =this.txtUserName.Text;//学生证号
+            Session["StudentName"] =this.txtUserName.Text;//学生证号d
             if(!IsPostBack)
             {
+
                 Random rm = new Random();
                 this.lblValiDate.Text = rm.Next(1000, 9999).ToString();
             }
