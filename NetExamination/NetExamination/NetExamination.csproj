@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\db_Examination_Data.MDF" />
+    <Content Include="App_Data\db_Examination_Log.LDF" />
     <Content Include="Default.aspx" />
     <Content Include="HouAdmin\Admin.aspx" />
     <Content Include="HouAdmin\InsertShiTi.aspx" />
