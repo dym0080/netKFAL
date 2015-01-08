@@ -59,10 +59,13 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="HouAdmin\Admin.aspx" />
+    <Content Include="HouAdmin\InsertShiTi.aspx" />
     <Content Include="HouAdmin\insert_shiti.aspx" />
     <Content Include="HouAdmin\kaosheng_chengji.aspx" />
     <Content Include="HouAdmin\kaoshi_timu.aspx" />
     <Content Include="HouAdmin\kecheng_xinxi.aspx" />
+    <Content Include="HouAdmin\TaotiInsert.aspx" />
+    <Content Include="HouAdmin\TaotiUpdate.aspx" />
     <Content Include="HouAdmin\taoti_xinxi.aspx" />
     <Content Include="HouAdmin\zhuanye_xinxi.aspx" />
     <Content Include="HouAdmin\zhuce_stu.aspx" />
@@ -93,6 +96,7 @@
     <Content Include="QianUser\StartExamfra.aspx" />
     <Content Include="test.aspx" />
     <Content Include="zhuce.aspx" />
+    <Content Include="App_Themes\mytheme\SkinFile.skin" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,6 +129,13 @@
     <Compile Include="HouAdmin\Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HouAdmin\InsertShiTi.aspx.cs">
+      <DependentUpon>InsertShiTi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HouAdmin\InsertShiTi.aspx.designer.cs">
+      <DependentUpon>InsertShiTi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HouAdmin\insert_shiti.aspx.cs">
       <DependentUpon>insert_shiti.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -152,6 +163,20 @@
     </Compile>
     <Compile Include="HouAdmin\kecheng_xinxi.aspx.designer.cs">
       <DependentUpon>kecheng_xinxi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HouAdmin\TaotiInsert.aspx.cs">
+      <DependentUpon>TaotiInsert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HouAdmin\TaotiInsert.aspx.designer.cs">
+      <DependentUpon>TaotiInsert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HouAdmin\TaotiUpdate.aspx.cs">
+      <DependentUpon>TaotiUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HouAdmin\TaotiUpdate.aspx.designer.cs">
+      <DependentUpon>TaotiUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="HouAdmin\taoti_xinxi.aspx.cs">
       <DependentUpon>taoti_xinxi.aspx</DependentUpon>
